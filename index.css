@@ -20,21 +20,26 @@ main {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 250px;
-  height: 150px;
+  width: 550px;
+  height: 250px;
 }
 .container h1 {
+  font-size: 4em;
   color: rgba(234, 227, 227, 0.811);
   cursor: pointer;
 }
 .btn {
   margin: 5px;
-  padding: 2px 2px;
+  padding: 10px 10px;
   transition: 0.5s;
   border: 1px solid #ccc;
-  border-radius: 4px; 
+  border-radius: 4px;
+  font-size: 1.5em;
 }
 .btn:hover {
   background-color: rgb(46, 37, 37);
   color: #fff;
+}
+#value{
+font-size: 10em;
 }
